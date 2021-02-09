@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+    margin: 0px;
+    color: black;
+}
+
+.navbarTitle {
+    color: #4A2D3E;
+    font-size: 28px;
+    text-align: center;
+}
+
+.gradient {
+    margin: 0px;
+    max-width: 2000px;
+    background-image: linear-gradient(to right, #324376, #5398BE, #8daa91);
+}
+
+.navbar {
+    float: left;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    margin-bottom: -15px;
+}
+
+.nav-right {
+    color: white;
+    margin-bottom: 0px;
+    float: right;
+}
