@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   <!-- endbuild -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=..." />
-<!--Update Google Fonts used in this site!!-->
+<!--Update Google Fonts to use in this site!!-->
     <title>World History and Geography for Kids</title>
 </head>
 
@@ -20,25 +20,23 @@
 
     <header class="container gradient">
         <div class="row">
-            <div class="col-2 navbar-brand mr-0" href="/" aria-label="WorldHistGeo"><img class="d-block" width="60" height="60" focusable="false"><title>WorldHistGeo</title></img></div>
+            <div class="col-2 navbar-brand mr-0" aria-label="WorldHistGeo"><a href="#"><img class="d-block" width="60" height="60" focusable="false"><title>WorldHistGeo</title></img></a></div>
             <div class="col-10 navbarTitle"><b>WorldHistGeo - World History and Geography for Kids</b></div>
             
-            <div class="row navbar navbar-expand">
-                <ul class="nav">
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i>Sites</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i>Contact</a></li>
-                    <li class="nav-item"><a class="nav-right" role="button" data-toggle="modal" data-target="#loginModal">
-                        <i class="fa fa-sign-in"></i>Login</a></li>
-                </ul>
-                <span id="login" class="navbar-text mr-0">
-                    
-                </span>
-                
-            </div>
+        <div class="row navbar navbar-expand">
+            <ul class="nav">
+<!--               <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a></li> 
+Using Header image as home button instead, so likely remove this line--> 
+                <li class="nav-item"><a class="nav-link" href="aboutFAQ.html">About/FAQs</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Partners</a></li>
+            </ul>              
         </div>
+        <a id="signIn" class="nav-link ml-auto mb-0" role="button" data-toggle="modal" data-target="#loginModal">
+            <i class="fa fa-sign-in"></i> Sign-in</a> 
     </header>
+    <button id="createAcct" class="btn btn-outline-secondary btn-sm mr-1 mt-1" data-toggle="modal" data-target="#createAcctModal">New Account</button>
 
   <!--Create ACCOUNT // SIGN-IN MODAL NEXT -->
 
