@@ -45,6 +45,24 @@ h2 {
     border-radius: 50px;
 }
 
+.captionDiv {
+    color: white;
+    background-color: black;
+    opacity: .6;
+    border-radius: 20px;
+    width:fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    height:fit-content;
+    margin:auto;
+}
+  
+
+
+#homeContainer {
+        position: relative;
+      }
+
 #signIn {
     color: white;
     font: bold 17px tahoma;
@@ -74,7 +92,3 @@ h2 {
     border-bottom-right-radius: 50px;
 }
 
-#brightText {
-    color: yellow;
-    font-weight: bold;
-}

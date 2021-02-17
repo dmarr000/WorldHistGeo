@@ -53,6 +53,11 @@ Using Header image as home button instead, so likely remove this line-->
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
                 <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -67,26 +72,71 @@ Using Header image as home button instead, so likely remove this line-->
                 </div>
 
                 <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid" src="img/great wall china2.jpeg" alt="Chicago">
-                    <div class="carousel-caption">
-                        <h3 id="brightText">Dynasties of China</h3>
-                        <p id="brightText">From the Han to the Ming</p>
+                    <img class="d-block w-100 img-fluid" width="480"
+                    height="320" src="" alt="Byzantine Empure">
+                    <div class="carousel-caption captionDiv pl-5 pr-5">
+                        <h3 id="brightText">Byzantine Empire</h3>
+                        <p id="brightText">The West has Fallen, but the East...</p>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid" src="img/view from Mt. Leconte1 Dec31, 2013.JPG" alt="Chicago">
-                    <div class="carousel-caption">
+                    <img class="d-block w-100 img-fluid" width="480"
+                    height="320" src="" alt="Middle East">
+                    <div class="carousel-caption captionDiv pl-5 pr-5">
+                        <h3 id="brightText">Southwest Asia and North Africa</h3>
+                        <p id="brightText">Rise of Islamic and Arabic Civilizations</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid" width="480"
+                    height="320" src="" alt="Kingdoms of West Africa">
+                    <div class="carousel-caption captionDiv pl-5 pr-5">
+                        <h3 id="brightText">Ghana, Mali, and Songhai</h3>
+                        <p id="brightText">Kingdoms and Empires of West Africa</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid" src="img/great wall china2.jpeg" alt="Great Wall of China">
+                    <div class="carousel-caption captionDiv pl-5 pr-5">
+                        <h3 id="brightText">East Asia - China and Japan</h3>
+                        <p id="brightText">From the Han to the Ming and Shotoku to the Shoguns</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid" width="480"
+                    height="320" src="" alt="Medieval Europe">
+                    <div class="carousel-caption captionDiv pl-5 pr-5">
+                        <h3 id="brightText">Western Europe in the Middle Ages</h3>
+                        <p id="brightText">...</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid" width="480"
+                    height="320" src="" alt="Early Modern Europe">
+                    <div class="carousel-caption captionDiv pl-5 pr-5">
+                        <h3 id="brightText">Early Modern Europe</h3>
+                        <p id="brightText">Renaissance, Reformation, and the Scientific Revolution</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid" src="img/view from Mt. Leconte1 Dec31, 2013.JPG" alt="view from Mt. Leconte toward Cherokee, NC">
+                    <div class="carousel-caption captionDiv pl-5 pr-5">
                         <h3>Indigenous American Cultures</h3>
-                        <p>Cherokees, Mayans, Incas, and Aztecs</p>
+                        <p>The Cherokee, Maya, Inca, and Aztec</p>
                     </div>
                 </div>
 
                 <div class="carousel-item">
-                    <img class="d-block w-100 img-fluid" src="/img/map compass explore2.jpeg" alt="Los Angeles">
-                    <div class="carousel-caption">
-                        <h3 id="brightText">Age of Exploration</h3>
-                        <p id="brightText">From Europe to Africa and the Americas</p>
+                    <img class="d-block w-100 img-fluid" src="/img/map compass explore2.jpeg" alt="Tools of an Explorer">
+                    <div class="carousel-caption captionDiv pl-5 pr-5">
+                        <h3>Age of Exploration</h3>
+                        <p>From Europe to Africa and the Americas</p>
                     </div>
                 </div>
             </div>
@@ -103,17 +153,21 @@ Using Header image as home button instead, so likely remove this line-->
         </div>
     </div>
 
-    <div class="container mt-5 ml-3">
+    <div id="homeContainer" class="container mt-5 ml-3">
         <div class="row">
-            1
-            <img id="contentSample1" class="col-10 col-md-5 mr-3 homeImg" src="img/North America shape.jpeg"></img>
-            2
+            <img id="contentSample1" class="col-10 col-md-5 mr-3 homeImg" src="img/Alhambra temple in Granada Spain geometric windows not sized.jpeg" alt="Alhambra temple in Granada Spain"></img>
+            <div class="text-block">
+                <p>Historical Connections: What does the Alhambra Temple in modern-day southern Spain have to do with the beginnings of Islamic faith on the Arabian Penisula in the 7th century?</p>
+            </div>
             <img id="contentSample1" class="col-10 col-md-5 mr-3 homeImg" src="img/map compass explore.jpeg"></img>
-            2.5
             <!--    <div id="adSpace" class="col-sm-2 mt-4 homeDiv">
                 3
             </div> may need to use bootstrap z-index to bring the adspace into use. 
             Also consider how to move adspace to bottom on xs screens such as phone to keep responsive quality built-in-->
+        </div>
+        <div class="row">
+            <p class="col-10 col-md-5 mr-3 picCaption"></p>
+            <p class="col-10 col-md-5 mr-3 picCaption">Hi!</p>
         </div>
     </div>  
 
