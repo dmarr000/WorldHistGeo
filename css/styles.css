@@ -57,10 +57,22 @@ h2 {
     margin:auto;
 }
   
-
+.bottom-left {
+    position: absolute;
+    bottom: 50px;
+    left: 1px;
+    font: bold 15px tahoma;
+    background-color: black;
+    opacity: .6;
+    border-radius: 40px;
+    padding: 10px;
+    padding-bottom: 0px;
+  }
 
 #homeContainer {
         position: relative;
+        text-align: center;
+        color: white;
       }
 
 #signIn {
