@@ -35,44 +35,38 @@ h2 {
     font-weight: bold;
 }
 
-.homeDiv {
-    border: solid 3px black;
-}
-
 .homeImg {
     padding: 0px;
-    opacity: .9;
     border-radius: 50px;
+    max-height: 650px;
 }
 
-.captionDiv {
+.carouselCaptions {
     color: white;
     background-color: black;
     opacity: .6;
     border-radius: 20px;
-    width:fit-content;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0px 30px;
     height:fit-content;
-    margin:auto;
+    margin:0px;
 }
   
-.bottom-left {
-    position: absolute;
-    bottom: 50px;
-    left: 1px;
+.capDiv {
+    color:white;
+    top: 0px;
+    left: 40px;
+    height:fit-content;
     font: bold 15px tahoma;
     background-color: black;
-    opacity: .6;
-    border-radius: 40px;
-    padding: 10px;
-    padding-bottom: 0px;
+    opacity: .7;
+    border-radius: 20px;
+    padding: 0px;
+    padding-bottom: 5px;
   }
 
 #homeContainer {
         position: relative;
-        text-align: center;
-        color: white;
+        color: black;
       }
 
 #signIn {
@@ -91,6 +85,7 @@ h2 {
 }
 
 #compassWest {
+    width: 40%;
     opacity: .6;
     border-radius: 10px;
     border-top-left-radius: 50px;
@@ -98,6 +93,7 @@ h2 {
 }
 
 #compassEast {
+    width: 40%;
     opacity: .6;
     border-radius: 10px;
     border-top-right-radius: 50px;
